@@ -17,27 +17,12 @@
 
 ## 🧠 Teknologi yang Digunakan
 
-- Python 3.x
+
 - Streamlit
 - Scikit-learn
 - Pandas, NumPy
 - Joblib
 - Jupyter Notebook (`linear_regression.ipynb`)
-
----
-
-## 📁 Struktur Folder
-
-```
-abalone-age-predictor/
-│
-├── streamlit_app.py                  # Aplikasi Streamlit untuk prediksi umur abalone
-├── abalone_prediction_model.joblib   # Model Linear Regression yang sudah dilatih
-├── linear_regression.ipynb           # Notebook eksplorasi data, preprocessing, modeling
-└── README.md                         # Dokumentasi proyek
-```
-
----
 
 ## 🎯 Cara Menjalankan Aplikasi
 
@@ -99,12 +84,6 @@ Proyek ini dapat digunakan untuk keperluan pembelajaran dan non-komersial. Untuk
 
 ---
 
-## 💡 Catatan
 
-Jika model gagal dimuat di Streamlit, pastikan file `abalone_prediction_model.joblib` berada pada path:  
-```bash
-./src/abalone_prediction_model.joblib
-```
-Atau sesuaikan path di dalam `streamlit_app.py`.
 
 ---
