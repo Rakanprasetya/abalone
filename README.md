@@ -6,7 +6,6 @@
 ---
 
 ## 🚀 Fitur Utama
-
 - Prediksi jumlah cincin abalone (indikator umur biologis)
 - Estimasi umur dalam tahun (Rings + 1.5)
 - Aplikasi berbasis web interaktif menggunakan **Streamlit**
@@ -16,39 +15,10 @@
 ---
 
 ## 🧠 Teknologi yang Digunakan
-
-
 - Streamlit
 - Scikit-learn
 - Pandas, NumPy
-- Joblib
 - Jupyter Notebook (`linear_regression.ipynb`)
-
-## 🎯 Cara Menjalankan Aplikasi
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/abalone-age-predictor.git
-cd abalone-age-predictor
-```
-
-### 2. Install Dependencies
-Disarankan menggunakan virtual environment.
-```bash
-pip install -r requirements.txt
-```
-
-Jika belum ada `requirements.txt`, instal manual:
-```bash
-pip install streamlit scikit-learn pandas numpy joblib
-```
-
-### 3. Jalankan Aplikasi
-```bash
-streamlit run streamlit_app.py
-```
-
-Akses aplikasi di browser Anda: `http://localhost:8501`
 
 ---
 
